@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Archivo+Narrow&family=Big+Shoulders+Inline+Text:wght@100;200;600&family=Bungee+Spice&family=Cinzel&family=Josefin+Sans&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Rajdhani&family=Reem+Kufi+Ink&family=Roboto&family=Sacramento&family=Special+Elite&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Archivo+Narrow&family=Big+Shoulders+Inline+Text:wght@100;200;600&family=Bungee+Spice&family=Caveat&family=Cinzel&family=Josefin+Sans&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Rajdhani&family=Reem+Kufi+Ink&family=Roboto&family=Sacramento&family=Sedgwick+Ave+Display&family=Skranji&family=Special+Elite&family=Yellowtail&display=swap');
  body {
     background-color: #e74c3c;
     animation: bg-color 10s infinite;
@@ -561,4 +561,24 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h2{
+  font-family: 'Skranji', cursive;
+}
+p{
+  font-family: 'Cinzel', serif;
+}
+h5{
+  
+font-family: 'Josefin Sans', sans-serif
+}
+h1{
+  font-family: 'Sacramento', cursive;
+
+}
+.q h4{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 1000;
+  
 }
