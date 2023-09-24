@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Cards</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container">
+      
+        <img src="./timg/istockphoto-1285310604-612x612-removebg-preview.png" alt="TravelTrove Logo" width="75">
+  <div class="tt">
+        <h1 class="tr mt-3" >Travel<span class="sr">Trove</span></h1>
+    
+  </div>    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto ">
+          
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Destinations
+            </a>
+            <div class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item bg-warning" href="#Museums">Museums</a>
+              <a class="dropdown-item bg-warning" href="#fort">Fort & Palaces</a>
+              <a class="dropdown-item bg-warning" href="#monuments">Monuments</a>
+              <a class="dropdown-item bg-warning" href="#heritage">Heritage Sites</a>
+              <a class="dropdown-item bg-warning" href="#pilgrims">piligrims Centres</a>
+
+              <!-- <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Local Cuisine</a>
+            </div> -->
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#booking">Book Now</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li> -->
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+        <!-- <div class="toggle-container">
+          <label class="switch">
+              <input type="checkbox">
+              <span class="slider"></span>
+          </label>
+        </div> -->
+          </div>
+    </div>
+    
+  
+  </nav>
+
+    <section class="q">
+        <div class="container">
+            <div class="carousel">
+                <input type="radio" name="slides" checked="checked" id="slide-1">
+                <input type="radio" name="slides" id="slide-2">
+                <input type="radio" name="slides" id="slide-3">
+                <input type="radio" name="slides" id="slide-4">
+                <input type="radio" name="slides" id="slide-5">
+                <input type="radio" name="slides" id="slide-6">
+                <ul class="carousel__slides">
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="./timg/mus.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <h4>Museums</h4>
+                                <a href="#Museums" class="btn btn-primary">Plan a Trip</a> 
+                                <!-- Museums are storehouses of not just our history but also a treasure trove of information regarding the various events and mechanisms that led us to this point in time. They have with them teachings, information and even warnings at times which are of great significance to the future generations. We can learn and observe from those who carved out a place in history                                -->
+                                 <!-- <span class="credit">Photo: Tim Marshall</span> -->
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="./timg/fortp.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <h4>Forts & Palaces</h4>
+                                <a href="#fort" class="btn btn-primary">Plan a Trip</a> 
+                                <!-- Kerala has had a long line of rulers and armies that have shaped the culture and architecture of the State over centuries. Many of the prominent forts and palaces still exist to this day as a reminder of a bygone era. Listed below are all the historical forts and palaces that warrant a visit.                                                           -->
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="./timg/monu.jpg" alt="">
+                            </div>
+
+                            <figcaption>
+                                <h4>Monuments</h4>
+                                <a href="#monuments" class="btn btn-primary">Plan a Trip</a> 
+                                <!-- Kerala monuments are relics of a past that the state is extremely proud of. These indicate some of the finest gifts left for us by the ancestors. They are storehouses of information and contain stories regarding the glorious history of Kerala. They stand as proud testaments of our architectural prowess. The monuments listed below are wonderful examples of Kerala's heritage, and the wisdom and technical knowledge that our forefathers possessed                                <span class="credit">Photo: Steve Carter</span>                             -->
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="./timg/hs4.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <h4>Pilgrim Centres</h4>
+                                <a href="#pilgrims" class="btn btn-primary">Plan a Trip</a> 
+
+                                <!-- <span class="credit">Photo: Aleksandra Boguslawska</span>                             -->
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="./timg/heri.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                <h4>Heritage Sites</h4>
+                                <a href="#heritage" class="btn btn-primary">Plan a Trip</a> 
+                                <!-- Kerala's heritage sites stand as testament to its rich cultural, historical, and architectural legacy. These landmarks offer a deep dive into the state's ancient traditions, artistic expressions, and architectural marvels. Preserving tales from bygone eras, Kerala's heritage sites are not just tourist attractions but are also symbolic of the state's cultural fabric, offering insights into its storied past and diverse influences. They encapsulate the spirit and essence of Kerala, providing visitors with a holistic understanding of its socio-cultural evolution over the centuries                                <span class="credit">Photo: Rosan Harmens</span>                             -->
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <!-- <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://picsum.photos/id/1052/800/450" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 <span class="credit">Photo: Annie Spratt</span>                            
+                            </figcaption>
+                        </figure>
+                    </li> -->
+                </ul>    
+                <ul class="carousel__thumbnails">
+                    <li>
+                        <label for="slide-1"><img src="./timg/mus.jpg"" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-2"><img src="./timg/fortp.jpg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-3"><img src="./timg/monu.jpg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-4"><img src="./timg/hs4.jpg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-5"><img src="./timg/heri.jpg" alt=""></label>
+                    </li>
+                    <!-- <li>
+                        <label for="slide-6"><img src="https://picsum.photos/id/1052/150/150" alt=""></label>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- heri -->
+    <header id="heritage" class="bg-success text-light text-center py-4">
+        <h1>Heritage Sites</h1>
+        <p>Kerala's heritage sites stand as testament to its rich cultural, historical, and architectural legacy. These landmarks offer a deep dive into the state's ancient traditions, artistic expressions, and architectural marvels. Preserving tales from bygone eras, Kerala's heritage sites are not just tourist attractions but are also symbolic of the state's cultural fabric, offering insights into its storied past and diverse influences. They encapsulate the spirit and essence of Kerala, providing visitors with a holistic understanding of its socio-cultural evolution over the centuries.
+
+
+
+
+        </p>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Destination Card 1 -->
+            <div class="col-md-6 mb-4">
+                <div class="card1">
+                    <img src="./timg/jews.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Jew Street</h5>
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card1">
+                    <img src="./timg/kalpathi.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">kalpathi</h5>
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div><div class="col-md-6 mb-4">
+                <div class="card1">
+                    <img src="./timg/muzris.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Muzris Heritage Project</h5>
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div><div class="col-md-6 mb-4">
+                <div class="card1">
+                    <img src="./timg/smstr.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">SM Street</h5>
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div><div class="col-md-6 mb-4">
+                <div class="card1">
+                    <img src="./timg/thazhe angadi.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Thazhe Angadi Street</h5>
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div><div class="col-md-6 mb-4">
+                <div class="card1">
+                    <img src="./timg/chalai.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Chalai Bazar</h5>
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the card structure for the remaining destinations -->
+
+        </div>
+    </div>
+    <!-- mus -->
+        <header id="Museums" class="bg-success text-light text-center py-4">
+            <h1>Museums</h1>
+            <p>Museums are storehouses of not just our history but also a treasure trove of information regarding the various events and mechanisms that led us to this point in time. They have with them teachings, information and even warnings at times which are of great significance to the future generations. We can learn and observe from those who carved out a place in history. The relics contained inside museums stand testament to the progress we have made over the ages and the direction we're heading in. Our museums have been well-maintained and equipped with certified guides to ensure a seamless and scholarly experience at every single one of them. From Heritage Museums, to Art Museums to niche Museums that catalogue a specific topic, we have safeguarded these testimonials with the best possible efforts and resources. You will find linked the pages that provide information on some of the best museums open to the public in Kerala.
+</p>
+        </header>
+    
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Destination Card 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card1">
+                        <img src="./timg/arklm1.jpg" class="card-img-top" alt="Arakkal Kettu Museum">
+                        <div class="card-body">
+                            <h5 class="card-title">Arakkal Kettu Museum</h5>
+                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card1">
+                        <img src="./timg/bayim3.jpg" class="card-img-top" alt="Bay Island Driftwood Museum">
+                        <div class="card-body">
+                            <h5 class="card-title">Bay Island Driftwood Museum</h5>
+                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-4">
+                    <div class="card1">
+                        <img src="./timg/hillm2.jpg" class="card-img-top" alt="Destination 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Hill Palace Museum</h5>
+                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-4">
+                    <div class="card1">
+                        <img src="./timg/m4ker.jpg" class="card-img-top" alt="Destination 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Museum of Kerala History at Edappally</h5>
+                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-4">
+                    <div class="card1">
+                        <img src="./timg/m5koyi.jpg" class="card-img-top" alt="Destination 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Napier Museum
+                            </h5>
+                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-4">
+                    <div class="card1">
+                        <img src="./timg/m6ker.jpg" class="card-img-top" alt="Destination 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Museum of History and Heritage in Thiruvananthapuram
+                            </h5>
+                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- ...........piligrims............ -->
+                <header id="pilgrims" class="bg-success text-light text-center py-4">
+                    <h1>Piligrim Centres</h1>
+                    <p>
+                        Kerala is known to be amongst the rare places where all major religions have coexisted peacefully for centuries. Each have left their own mark on the culture of the state. You can witness the same by visiting the various religious institutions spread across the state. From Hindu temples, churches and mosques to Jain temples, synagogues and Buddhist monasteries, there are various centers of pilgrimage for our visitors. Do try adding them to your itinerary because they are amongst the most spiritually calming places in the world        
+        
+        
+        
+        
+        
+                    </p>
+                </header>
+            
+                <div class="container mt-4">
+                    <div class="row">
+                        <!-- Destination Card 1 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/t1.jpg" class="card-img-top" alt="Arakkal Kettu Museum">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sree Padmanabhaswamy Temple</h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/t2.jpg" class="card-img-top" alt="Bay Island Driftwood Museum">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kurisumala in Kottayam
+                                    </h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div><div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/t3.jpg" class="card-img-top" alt="Destination 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mishkal Masjid, Kuttichira</h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div><div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/t4.jpg" class="card-img-top" alt="Destination 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kadammanitta</h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div><div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/t5.jpg" class="card-img-top" alt="Destination 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kaduthuruthi Valiapalli in Kottayam
+                                    </h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div><div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/t6.jpg" class="card-img-top" alt="Destination 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ambalappuzha Sree Krishna Temple
+                                    </h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                        <!-- ............MONUMENTS............. -->
+                        <header id="monuments" class="bg-success text-light text-center py-4">
+                            <h1>Monuments</h1>
+                            <p>
+                                Kerala monuments are relics of a past that the state is extremely proud of. These indicate some of the finest gifts left for us by the ancestors. They are storehouses of information and contain stories regarding the glorious history of Kerala. They stand as proud testaments of our architectural prowess. The monuments listed below are wonderful examples of Kerala's heritage, and the wisdom and technical knowledge that our forefathers possessed                
+                
+                
+                
+                
+                            </p>
+                        </header>
+                    
+                        <div class="container mt-4">
+                            <div class="row">
+                                <!-- Destination Card 1 -->
+                                <div class="col-md-6 mb-6">
+                                    <div class="card1">
+                                        <img src="./timg/mn1.jpg" class="card-img-top" alt="Arakkal Kettu Museum">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bekal Fort</h5>
+                                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-6">
+                                    <div class="card1">
+                                        <img src="./timg/mn2.jpg" class="card-img-top" alt="Bay Island Driftwood Museum">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dutch Cemetery, Ernakulam
+                                            </h5>
+                                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div><div class="col-md-6 mb-6 mt-5">
+                                    <div class="card1">
+                                        <img src="./timg/mn3.jpg" class="card-img-top" alt="Destination 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Government Secretariat, Thiruvananthapuram</h5>
+                                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div><div class="col-md-6 mb-6 mt-5">
+                                    <div class="card1">
+                                        <img src="./timg/mn4.jpg" class="card-img-top" alt="Destination 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Vizhinjam Rock-Cut Cave</h5>
+                                            <a href="#booking" class="btn btn-primary">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <!-- ............fort............ -->
+                <header id="fort" class="bg-success text-light text-center py-4 mt-5">
+                    <h1>Fort & Palaces</h1>
+                    <p>
+                        Kerala has had a long line of rulers and armies that have shaped the culture and architecture of the State over centuries. Many of the prominent forts and palaces still exist to this day as a reminder of a bygone era. Listed below are all the historical forts and palaces that warrant a visit        
+        
+        
+        
+        
+        
+                    </p>
+                </header>
+            
+                <div class="container mt-4">
+                    <div class="row">
+                        <!-- Destination Card 1 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/fort1.jpg" class="card-img-top" alt="Arakkal Kettu Museum">
+                                <div class="card-body">
+                                    <h5 class="card-title">Anjengo</h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/fort2.jpg" class="card-img-top" alt="Bay Island Driftwood Museum">
+                                <div class="card-body">
+                                    <h5 class="card-title">St. Angelo’s Fort, Kannur</h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div><div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/fort3.jpg" class="card-img-top" alt="Destination 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tipu's Fort in Palakkad</h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div><div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/fort4.jpg" class="card-img-top" alt="Destination 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kilimanoor Palacey</h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div><div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/fort5.jpg" class="card-img-top" alt="Destination 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Thalassery Fort
+                                    </h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div><div class="col-md-6 mb-4">
+                            <div class="card1">
+                                <img src="./timg/fort6.jpg" class="card-img-top" alt="Destination 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Shakthan Thampuran Palace
+                                    </h5>
+                                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>   
+                                
+                        <!-- Repeat the card structure for the remaining destinations -->
+    
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+     <!-- Booking Section -->
+     <section id="booking" class="py-5">
+        <div class="container-fluid w-100">
+          <div class="waviy">
+  
+            <h2 class="text-center mb-4 pt-2">
+                <span style="--i:1">B</span>
+                <span style="--i:2">o</span>
+                <span style="--i:3">o</span>
+                <span style="--i:4">k</span> 
+                <span> </span>
+                <span style="--i:5">Y</span>
+                <span style="--i:6">o</span>
+                <span style="--i:7">u</span>
+                <span style="--i:8">r</span> 
+                <span> </span>
+                <span style="--i:9">T</span>
+                <span style="--i:10">r</span>
+                <span style="--i:11">i</span>
+                <span style="--i:12">p</span>
+         
+  
+  
+            </h2>
+          </div>
+  
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="destination">Destination</label>
+                            <select class="form-control" id="destination" required>
+                                <option value="">Select Destination</option>
+                                <option value="Destination 1">abcdef....</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkIn">Check-In Date</label>
+                            <input type="date" class="form-control" id="checkIn" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkOut">Check-Out Date</label>
+                            <input type="date" class="form-control" id="checkOut" required>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Book Now</button>
+                
+            </form>
+        </div>
+              
+</div>
+    </section>
+<!-- Footer Section -->
+        <div class="container">
+            <p class="pp">&copy; 2023 TravelTrove. All Rights Reserved.</p>
+        </div>
+    
+ 
+
+
+</body>
+</html>
